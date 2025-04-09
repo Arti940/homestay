@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking a Room</title>
+    <link rel="stylesheet" href="/Homepage/style.css">
+    <script defer src="/Homepage/script.js"></script>
+</head>
+<body>
+   <header class="booking-header">
+    <h1>🌿 Sparsh HomeStay</h1>
+    <p>Book Your Stay</p>
+   </header> 
+   <form class="booking-form">
+    <label>Name:</label>
+    <input type="text" required>
+
+    <label>Email:</label>
+    <input type="email" required>
+
+    <label>Check-in Date:</label>
+    <input type="date" required>
+
+    <label>Check-out Date:</label>
+    <input type="date" required>
+
+    <label for="room">Room Type:</label>
+<select id="room" required>
+  <option value="" disabled selected>-- Select a Room Type --</option>
+  <option value="deluxe">🏨 Deluxe Room</option>
+  <option value="luxury">🛁 Luxury Suite</option>
+  <option value="eden">🌿 Eden Escape</option>
+  <option value="skyhigh">🌇 Skyhigh Penthouse</option>
+  <option value="sunset">🌅 Sunset Breeze Room</option>
+  <option value="serene">🌸 Serene Sanctuary</option>
+  <option value="blissful">🕊 Blissful Nest</option>
+  <option value="erene">🏡 Erene Rooms</option>
+</select>
+
+    <button class= "btn" type="submit">Confirm Booking</button>
+   </form>
+   <script src="/Homepage/script.js"></script>
+</body>
+</html>

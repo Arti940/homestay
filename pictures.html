@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pictures | Sparsh HomeStay</title>
+  <link rel="stylesheet" href="/Homepage/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🏡 Sparsh HomeStay</div>
+    <nav>
+      <ul>
+        <li><a href="/Homepage/index.html">Home</a></li>
+        <li><a href="/Homepage/Bookingpage/Aboutpage/about.html">About</a></li>
+        <li><a href="/Homepage/rooms.html">Rooms</a></li>
+        <li><a href="/Homepage/pictures.html" class="active">Pictures</a></li>
+        <li><a href="/Homepage/Bookingpage/booking.html">Booking</a></li>
+        <li><a href="/Homepage/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="gallery-section">
+    <h1>Explore Our Moments</h1>
+    <div class="filter-buttons">
+      <button data-filter="all">All</button>
+      <button data-filter="room">Rooms</button>
+      <button data-filter="food">Food</button>
+      <button data-filter="view">Views</button>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item" data-category="room">
+        <img src="/images/deluxe.jpg" alt="Room 1">Room 1
+      </div>
+      <div class="gallery-item" data-category="room">
+        <img src="/images/luxury.avif" alt="Room 2">Room 2
+      </div>
+      <div class="gallery-item" data-category="room">
+        <img src="/images/penthhouse.avif" alt="Room 3">Room 3
+      </div>
+      <div class="gallery-item" data-category="room">
+        <img src="/images/newlook.avif" alt="Room 4">Room 4
+      </div>
+      <div class="gallery-item" data-category="room">
+        <img src="/images/birds.avif" alt="Room 5"> Room 5
+      </div>
+                   <!-- Food Images -->
+      <div class="gallery-item" data-category="food">
+        <img src="/images/pizza.avif" alt="Wood-fired pizza with toppings"> Pizza
+      </div>
+      <div class="gallery-item" data-category="food">
+        <img src="/images/juice.avif" alt="">Juices
+      </div>
+      <div class="gallery-item" data-category="food">
+        <img src="/images/salad.avif" alt="salad">Salad
+      </div>
+      <div class="gallery-item" data-category="food">
+        <img src="/images/rice.avif" alt="Rice">Pulaav
+      </div>
+      <div class="gallery-item" data-category="food">
+        <img src="/images/onion.avif" alt="Pulaav">Onion Food
+      </div>
+                     <!-- Scene View -->
+      <div class="gallery-item" data-category="view">
+        <img src="/images/view.avif" alt="Scenic View"> Hotel
+      </div>
+      <div class="gallery-item" data-category="view">
+        <img src="/images/tables.avif" alt="Scenic View">Restaurent
+      </div>
+      <div class="gallery-item" data-category="view">
+        <img src="/images/valley.avif" alt="valley View"> Valley
+      </div>
+      <div class="gallery-item" data-category="view">
+        <img src="/images/morning.avif" alt="Sunrise View"> Sunrise Morning
+      </div>
+      <div class="gallery-item" data-category="view">
+        <img src="/images/views.avif" alt="Scenic View"> Scenery
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+  </section>
+
+  <!-- Modal View -->
+  <div class="modal" id="imageModal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div id="caption">
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Sparsh HomeStay. All Rights Reserved.</p>
+  </footer>
+
+  <script src="/Homepage/script.js" defer></script>
+</body>
+</html>
