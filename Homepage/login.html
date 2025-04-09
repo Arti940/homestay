@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Sparsh HomeStay</title>
+  <link rel="stylesheet" href="/Homepage/loginpage/login.css" />
+</head>
+<body>
+  <div class="login-container">
+    <form id="loginForm" class="login-form">
+      <h2>Welcome Back 👋</h2>
+      <p>Login to your account at <strong>Sparsh HomeStay</strong></p>
+      
+      <div class="input-group">
+        <input type="email" id="email" required />
+        <label for="email">Email Address</label>
+        <span class="icon">&#9993;</span>
+      </div>
+
+      <div class="input-group">
+        <input type="password" id="password" required />
+        <label for="password">Password</label>
+        <span class="icon">&#128274;</span>
+        <span class="toggle-password" id="togglePassword">&#128065;</span>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+      <p class="error-message" id="errorMsg"></p>
+
+      <div class="extra-links">
+        <a href="#">Forgot Password?</a>
+        <a href="#">Create New Account</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="/Homepage/script.js"></script>
+</body>
+</html>
